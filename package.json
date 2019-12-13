@@ -1,0 +1,24 @@
+{
+  "name": "tool",
+  "version": "1.0.0",
+  "description": "webpack学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youhui1214/tool.git"
+  },
+  "keywords": [],
+  "author": "huhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youhui1214/tool/issues"
+  },
+  "homepage": "https://github.com/youhui1214/tool#readme",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
