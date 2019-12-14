@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 import './search.less';
 import logo from './images/test.png';
 
-class Search extends React.Component {
+class Index extends React.Component {
 
     render() {
         return <div className='search-text'>
@@ -16,7 +16,7 @@ class Search extends React.Component {
 }
 
 ReactDOM.render(
-    <Search/>,
+    <Index/>,
     document.getElementById('root')
 );
 
