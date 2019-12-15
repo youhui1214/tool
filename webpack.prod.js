@@ -53,7 +53,7 @@ module.exports = {
         path: path.join(__dirname, 'dist'),
         filename: '[name]_[chunkhash:8].js'
     },
-    mode: 'production',
+    mode: 'none',
     module: {
         rules: [
             {
@@ -105,5 +105,6 @@ module.exports = {
             cssProcessor: require('cssnano')
         }),
         new CleanWebpackPlugin()
-    ].concat(htmlWebpackPlugin)
+    ].concat(htmlWebpackPlugin),
+    devtool: 'source-map'
 };
