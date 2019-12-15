@@ -4,6 +4,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './search.less';
 import logo from './images/test.png';
+import '../../common'
 
 class Index extends React.Component {
 
