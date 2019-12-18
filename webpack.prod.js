@@ -5,7 +5,7 @@ const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCssAssetsWebpackPlugin = require('optimize-css-assets-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const HtmlWebpackExternalsPlugin  = require('html-webpack-externals-plugin');
+const HtmlWebpackExternalsPlugin = require('html-webpack-externals-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 const setMPA = () => {
@@ -59,7 +59,7 @@ module.exports = {
         rules: [
             {
                 test: /\.js$/,
-                use: 'babel-loader'
+                use: ['babel-loader', 'eslint-loader']
             },
             {
                 test: /\.css$/,
